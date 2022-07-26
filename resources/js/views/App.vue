@@ -1,14 +1,18 @@
 <template>
 <div>
     <BaseHeader/>
+    <BaseMain/>
+    <BaseFooter/>
 </div>
     
 </template>
 
 <script>
-import BaseHeader from '../components/BaseHeader.vue'
+import BaseFooter from '../components/commons/BaseFooter.vue';
+import BaseHeader from '../components/commons/BaseHeader.vue';
+import BaseMain from '../components/commons/BaseMain.vue';
 export default {
-  components: { BaseHeader },
+  components: { BaseHeader, BaseFooter, BaseMain },
     name: 'App'
 }
 </script>

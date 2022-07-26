@@ -49284,8 +49284,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  */
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
-Vue.component('example-component', __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module './components/ExampleComponent.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()))["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -49354,27 +49354,27 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/sass/front.scss":
-/*!***********************************!*\
-  !*** ./resources/sass/front.scss ***!
-  \***********************************/
+/***/ "./resources/sass/guest/front.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/guest/front.scss ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open '/Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/resources/sass/front.scss'\n    at /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/node_modules/loader-runner/lib/LoaderRunner.js:203:19\n    at /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 0:
-/*!*****************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/front.scss ***!
-  \*****************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/guest/front.scss ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/resources/js/app.js */"./resources/js/app.js");
 __webpack_require__(/*! /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/resources/sass/front.scss */"./resources/sass/front.scss");
+module.exports = __webpack_require__(/*! /Users/emanueleguidi/Desktop/Boolean/Esercizi/laravel-api/resources/sass/guest/front.scss */"./resources/sass/guest/front.scss");
 
 
 /***/ })
