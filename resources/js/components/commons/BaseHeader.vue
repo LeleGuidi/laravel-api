@@ -2,14 +2,15 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div>
                     <h1>Blog</h1>
                 </div>
-                <div class="col-6">
+                <div>
                     <nav class="header_navbar">
                         <ul class="navbar-nav">
-                            <li>Ciao</li>
-                            <li>CIao</li>
+                            <li><router-link class="link" :to="{name: 'home'}">Posts</router-link></li>
+                            <li><router-link class="link" :to="{name: 'about-us'}">Chi siamo</router-link></li>
+                            <li><a class="link" href="admin/home">Area riservata</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -39,6 +40,11 @@ header {
         list-style: none;
         gap: .625rem;
         font-size: 1.25rem;
+    }
+    .link {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
     }
 }
 </style>
