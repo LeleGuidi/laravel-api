@@ -26,5 +26,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+.card {
+    background-color: lightgray;
+    border-radius: .625rem;
+}
 </style>

@@ -2,7 +2,7 @@
     <section class="posts">
         <div class="container">
             <div class="row">
-                <div class="col-4" v-for="post in posts" :key="post.slug">
+                <div class="col" v-for="post in posts" :key="post.slug">
                     <BaseCard :title="post.title" :content="post.content" :slug="post.slug"/>
                 </div>
             </div>
@@ -32,6 +32,10 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+section.posts {
+    .row {
+        gap: .625rem;
+    }
+}
 </style>
